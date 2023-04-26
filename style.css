@@ -1,4 +1,4 @@
-p {
+.frase {
   position: absolute;
 width: 950px;
 height: 424px;
@@ -26,7 +26,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 35px;
-
+margin: 0px;
 color: #070707;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -41,7 +41,7 @@ h2{
 font-family: 'Jost';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 24px;margin: 0px;
 line-height: 35px;
 
 color: #070707;
@@ -55,7 +55,9 @@ width: 1440px;
 height: 1024px;
 
 background: #15647D;
-}
+padding: 0px;
+
+}margin: 0px;
 
 #imagem1{
   position: absolute;
@@ -80,4 +82,20 @@ height: 220px;
 left: 900px;
 top: 441px;
 
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  margin-left: -100px;
+  color: #FFF;
+  width: 170%;
+  height: 250px;
+  top: 1000px;
+  text-align: center;
+  line-height: 100px;
+}
+.rodape{
+  margin-left: 100px;
 }
