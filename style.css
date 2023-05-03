@@ -14,7 +14,7 @@ line-height: 35px;
 color: #000000;
 }
 
-h1 {
+.titulo {
   position: absolute;
    width: 1150px;
    height: 200px;
@@ -31,7 +31,7 @@ color: #070707;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-h2{
+.insta{
   position: absolute;
    width: 1150px;
    height: 200px;
@@ -57,30 +57,31 @@ height: 1024px;
 background: #15647D;
 padding: 0px;
 
-}margin: 0px;
+}
 
-#imagem1{
+.laboratorio{
   position: absolute;
 width: 327px;
 height: 265px;
 left: 1050px;
 top: 216px;
+margin-top: 50px;
 }
 
-#imagem3{
+.biblioteca{
   position: absolute;
-width: 296px;
-height: 226px;
+width: 436px;
+height: 268px;
 left: 1250px;
-top: 435px;
+top: 635px;
 }
 
-#imagem4{
+.edf{
   position: absolute;
-width: 311px;
-height: 220px;
-left: 900px;
-top: 441px;
+width: 350px;
+height: 250px;
+left: 800px;
+top: 641px;
 
 }
 
@@ -91,7 +92,7 @@ footer{
   margin-left: -100px;
   color: #FFF;
   width: 170%;
-  height: 250px;
+  height: 150px;
   top: 1000px;
   text-align: center;
   line-height: 100px;
